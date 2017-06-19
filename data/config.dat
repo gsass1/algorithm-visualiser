@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<Config>
+    <ScreenConfig Width="1920" Height="1080" Fullscreen="false" Resizable="false" />
+    <EngineConfig GameDLLPath="game" />
+    <AudioConfig Rate="44100" Format="32784" Channels="2" BufferSize="4096" MusicVolume="1.00" />
+</Config>
