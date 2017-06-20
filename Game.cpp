@@ -12,8 +12,8 @@
 #include "ICommon.h"
 #include "StringUtils.h"
 
-std::atomic<int> sleepTime = 10;
-static std::atomic<bool> threadFinished = false;
+std::atomic<int> sleepTime(10);
+static std::atomic<bool> threadFinished(false);
 
 CGame game_local;
 
