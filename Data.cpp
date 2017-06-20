@@ -16,8 +16,8 @@ CData::CData(int size, int max)
 
 CData::~CData()
 {
-	delete data;
-	delete timeData;
+	delete [] data;
+	delete [] timeData;
 }
 
 void CData::Update(float dtTime)
